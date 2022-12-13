@@ -424,7 +424,7 @@ class SearchResources extends AbstractPlugin
                             $shortProperties[$short]['texts'][] = $queryRow['text'];
                         }
                     }
-                    $query = $this->optimizeQueryProperty($query, $shortProperties);
+//                    $query = $this->optimizeQueryProperty($query, $shortProperties);
                 } else {
                     unset($query['property']);
                 }
